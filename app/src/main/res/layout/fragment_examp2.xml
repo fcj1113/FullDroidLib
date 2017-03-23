@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="SuperTextView展示几种常见的显示方式" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="(更多组合方式可自行组合)"
+                android:textColor="@color/colorAccent" />
+
+            <cn.fulldroid.lib.text.SuperTextView
+                android:id="@+id/super_tv"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:sLeftBottomTextColor2="@color/colorAccent"
+                app:sLeftBottomTextString="招商银行（8888）"
+                app:sLeftBottomTextString2="限额说明>>"
+                app:sLeftIconRes="@drawable/bank_zhao_shang"
+                app:sLeftTopTextString="银行卡支付"
+                app:sRightCheckBoxRes="@drawable/circular_check_bg"
+                app:sRightCheckBoxShow="true" />
+
+            <cn.fulldroid.lib.text.SuperTextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:sLeftBottomTextColor="@color/colorAccent"
+                app:sLeftBottomTextString="限额说明>>"
+                app:sLeftIconRes="@drawable/not_bank_card_icon"
+                app:sLeftTopTextString="银行卡支付" />
+
+            <cn.fulldroid.lib.text.SuperTextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:sLeftBottomTextString="188****8888"
+                app:sLeftIconRes="@drawable/head_default"
+                app:sLeftTopTextString="张三" />
+
+            <cn.fulldroid.lib.text.SuperTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:sLeftIconRes="@drawable/question"
+                app:sLeftTextString="常见问题" />
+
+            <cn.fulldroid.lib.text.SuperTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:sLeftIconRes="@drawable/my_bankcard"
+                app:sLeftTextString="我的银行卡我的银行卡asdfasdfasdfasdfasdf"
+                app:sRightTextColor="@color/colorAccent"
+                app:sRightTextString="已绑定"
+                app:sMaxEms="25"/>
+
+            <cn.fulldroid.lib.text.SuperTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:sLeftTextString="设置中心"
+                app:sRightIconRes="@drawable/arrow_right_red" />
+
+
+            <cn.fulldroid.lib.text.SuperTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:sLeftTextString="客服热线"
+                app:sRightTextColor="#ff0000"
+                app:sRightTextSize="12dp"
+                app:sLeftTextSize="14dip"
+                app:sRightTextStringRightIconRes="@drawable/arrow_right_red"
+                app:sRightTextStringRightIconResPadding="8dip"
+                app:sRightTextString="4006179999"
+                app:sUseRipple="true" />
+
+            <cn.fulldroid.lib.text.SuperTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:sCenterTextString="88.88元"
+                app:sLeftTextString="2016-10-18"
+                app:sRightTextString="正常" />
+
+            <cn.fulldroid.lib.text.SuperTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:sLeftTextString="年化率"
+                app:sRightTextColor="@color/colorAccent"
+                app:sRightTextString="13.8%" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

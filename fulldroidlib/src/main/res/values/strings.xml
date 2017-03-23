@@ -1,0 +1,47 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">FullDroidLib</string>
+
+    <!--datetimepicker begin-->
+    <string name="done_label" msgid="7007948707597430919">"完成"</string>
+    <string name="hour_picker_description" msgid="7586639618712934060">"小时转盘"</string>
+    <string name="minute_picker_description" msgid="6024811202872705251">"分钟转盘"</string>
+    <string name="select_hours" msgid="7651068754188418859">"选择小时"</string>
+    <string name="select_minutes" msgid="8327182090226828481">"选择分钟"</string>
+    <string name="day_picker_description" msgid="3968620852217927702">"按月份划分的日期网格"</string>
+    <string name="year_picker_description" msgid="6963340404644587098">"年份列表"</string>
+    <string name="select_day" msgid="3973338219107019769">"选择月份和日期"</string>
+    <string name="select_year" msgid="2603330600102539372">"选择年份"</string>
+    <string name="item_is_selected" msgid="2674929164900463786">"已选择 <xliff:g id="ITEM">%1$s</xliff:g>"</string>
+    <string name="deleted_key" msgid="6908431551612331381">"已删除 <xliff:g id="KEY">%1$s</xliff:g>"</string>
+    <string name="sans_serif" translatable="false">sans-serif</string>
+    <string name="day_of_week_label_typeface" translatable="false">sans-serif</string>
+    <string name="time_placeholder" translatable="false">--</string>
+    <string name="time_separator" translatable="false">:</string>
+    <string name="radial_numbers_typeface" translatable="false">sans-serif</string>
+    <!--datetimepicker end-->
+
+    <!--pickphoto begin-->
+    <string name="pick_all_photo">All Photos</string>
+    <string name="pick_photos">照片</string>
+    <string name="pick_pick_cancel">取消</string>
+    <string name="pick_preview">预览</string>
+    <string name="pick_pick">选取</string>
+    <string name="pick_pick_size">选取(%1$s)</string>
+    <string name="pick_permissionRefuse">权限拒绝</string>
+    <string name="pick_menu_cancel">取消</string>
+    <string name="pick_photo_size">(%1$s)</string>
+    <string name="pick_photo_size_limit">最多选择%1$s张图片</string>
+    <string name="pick_select">确定</string>
+    <!--pickphoto end-->
+
+    <!--Recyclerview begin-->
+    <string name="recyclerview_header_hint_normal">下拉刷新</string>
+    <string name="recyclerview_header_hint_release">释放立即刷新</string>
+    <string name="recyclerview_loading">正在加载...</string>
+    <string name="recyclerview_nomore_loading">没有了</string>
+    <string name="recyclerview_refreshing">正在刷新...</string>
+    <string name="recyclerview_refresh_done">刷新完成</string>
+    <string name="recyclerview_header_last_time">上次更新时间：</string>
+    <!--Recyclerview END-->
+
+</resources>

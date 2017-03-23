@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="statusbar_view" type="id"/>
+    <item name="translucent_view" type="id"/>
+
+    <!--datetimepicker begin-->
+    <item type="id" name="done">false</item>
+    <item type="id" name="date_picker_header">false</item>
+    <item type="id" name="day_picker_selected_date_layout">false</item>
+    <item type="id" name="date_picker_month_and_day">false</item>
+    <item type="id" name="date_picker_month">false</item>
+    <item type="id" name="date_picker_day">false</item>
+    <item type="id" name="date_picker_year">false</item>
+    <item type="id" name="animator">false</item>
+    <item type="id" name="month_text_view">false</item>
+    <!--datetimepicker end-->
+
+    <!--superTextView begin-->
+    <item name="sLeftIconId" type="id" />
+    <item name="sCenterBaseLineId" type="id" />
+    <item name="sCenterTextId" type="id" />
+    <item name="sLeftTextId" type="id" />
+    <item name="sLeftTopTextId" type="id" />
+    <item name="sLeftBottomTextId" type="id" />
+    <item name="sLeftBottomTextId2" type="id" />
+    <item name="sRightTextId" type="id" />
+    <item name="sRightIconId" type="id" />
+
+    <item name="cLeftTextId" type="id" />
+    <item name="cRightTextId" type="id" />
+    <item name="cCenterTextId" type="id" />
+
+    <!--superTextView end-->
+
+    <!--swipeMenu begin-->
+    <item name="smContentView" type="id"/>
+    <item name="smMenuViewLeft" type="id"/>
+    <item name="smMenuViewRight" type="id"/>
+    <item name="smMenuViewTop" type="id"/>
+    <item name="smMenuViewBottom" type="id"/>
+    <item name="selected_view" type="id"/>
+
+    <item name="pick_image_path" type="id"/>
+    <item name="pick_dir_name" type="id"/>
+    <item name="pick_is_select" type="id"/>
+
+</resources>

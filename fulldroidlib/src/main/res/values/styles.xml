@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MIS_NO_ACTIONBAR" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <!--datetimepicker begin-->
+    <style name="time_label">
+        <item name="android:textSize">@dimen/time_label_size</item>
+        <item name="android:textColor">@color/numbers_text_color</item>
+    </style>
+
+    <style name="ampm_label">
+        <item name="android:textSize">@dimen/ampm_label_size</item>
+        <item name="android:textColor">@color/ampm_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="day_of_week_label_condensed" />
+    <!--datetimepicker end-->
+
+    <!--pickphoto begin-->
+    <style name="PickBlackTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/pick_black</item>
+        <item name="colorPrimaryDark">@color/pick_black</item>
+        <item name="android:windowBackground">@color/pick_white</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="PickBottomUp">
+        <item name="android:windowEnterAnimation">@anim/pick_start_slide_in_bottom</item>
+    </style>
+
+    <style name="PickRightSlide">
+        <item name="android:windowEnterAnimation">@anim/pick_start_slide_in_right</item>
+    </style>
+
+    <style name="PickAppThemeBottom" parent="PickBlackTheme" >
+        <item name="android:windowAnimationStyle">@style/PickBottomUp</item>
+    </style>
+
+    <style name="PickAppThemeRight" parent="PickBlackTheme">
+        <item name="android:windowAnimationStyle">@style/PickRightSlide</item>
+    </style>
+    <!--pickphoto end-->
+
+</resources>
